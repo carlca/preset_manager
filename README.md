@@ -279,5 +279,4 @@ pip install pefile
 ```
 
 ### macOS Security
-On macOS 10.15+, you may need to grant terminal/Python disk access permissions in System Preferences > Security & Privacy.# preset_manager
-# preset_manager
+On macOS 10.15+, you may need to grant terminal/Python disk access permissions in System Preferences > Security & Privacy.

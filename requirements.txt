@@ -1,0 +1,34 @@
+# Plugin Metadata Reader Requirements
+# Core functionality uses Python standard library only
+
+# Optional dependencies for enhanced functionality:
+
+# For better Windows DLL parsing (optional)
+pefile>=2023.2.7
+
+# For lenient JSON parsing with trailing commas and comments (optional but recommended)
+json5>=0.9.14
+
+# For handling binary plist files on older systems (optional)
+# biplist>=1.0.3
+
+# For advanced XML parsing (optional, stdlib xml.etree is usually sufficient)
+# lxml>=4.9.3
+
+# For parallel scanning of large plugin collections (optional)
+# concurrent-futures>=3.1.1  # backport for Python < 3.2
+
+# For creating a GUI (optional)
+# tkinter is included in standard Python distribution
+# PyQt5>=5.15.9
+# PySide6>=6.5.0
+
+# For creating a web interface (optional)
+# flask>=2.3.0
+# fastapi>=0.100.0
+
+# Development dependencies
+# pytest>=7.4.0
+# black>=23.7.0
+# mypy>=1.4.1
+# pylint>=2.17.4
